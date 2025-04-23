@@ -38,7 +38,7 @@ class Calculator:
         Returns:
         float: The result of val1 - val2.
     '''
-    def substract(self, val1:  float | int, val2:  float | float | int) -> float:
+    def substract(self, val1:  float | int, val2:  float | int) -> float:
         return val1 - val2
     
     '''

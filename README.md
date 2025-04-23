@@ -24,3 +24,7 @@ python -m venv venv
  
  6) Pour générer la documentation:
     pdoc --html --output-dir docs .\calculator.py
+
+7) Pour run les tests de coverage à envoyer à sonarqube:
+    pytest testCalculator.py --cov=calculator --cov-report=xml
+    puis faire la commande: sonar-scanner
