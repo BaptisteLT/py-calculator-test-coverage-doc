@@ -1,0 +1,15 @@
+# Ignore virtual environment folders
+venv/
+calculatorenv/
+
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+__pycache__/
+
+# Ignore IDE-specific files (optional, based on your editor)
+.vscode/
+.idea/
+
+# Ignore other temporary files
+*.log
